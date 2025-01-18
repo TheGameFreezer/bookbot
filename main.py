@@ -1,6 +1,6 @@
 import os
 def main():
-    book_path = "/home/baine/workspace/github.com/gamefreezer/bookbot/books/frankenstein.txt"
+    book_path = "/home/baine/workspace/github.com/TheGameFreezer/bookbot/books/frankenstein.txt"
     text = get_book_text(book_path)
     num_words = get_num_words(text)
     chars_dict = get_chars_dict(text)
